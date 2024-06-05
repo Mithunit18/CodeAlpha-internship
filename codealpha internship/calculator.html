@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calci_style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+<body bgcolor="silver">
+
+    <script src="cal.js"></script>
+
+    <div class="header">
+
+    <h1 style="text-align: center;font-size:85px;">
+      CALCULATOR
+    </h1>
+    
+    <div class="main">
+        <div class="front">
+            <input type="text" id="display" disabled>
+
+          <div class="first">
+            <button onclick="clearDisplay()">AC</button>
+            <button onclick=DeleteLastDigit()>DEL</button>
+            <button onclick="appendOperator('%')">%</button>
+            <button onclick="appendOperator('/')">/</button>
+          </div>
+
+          <div class="second">
+            <button onclick="appendnumber(7)">7</button>
+            <button onclick="appendnumber(8)">8</button>
+            <button onclick="appendnumber(9)">9</button>
+            <button onclick="appendOperator('*')">*</button>
+          </div>
+
+          <div class="third">
+            <button onclick="appendnumber(4)">4</button>
+            <button onclick="appendnumber(5)">5</button>
+            <button onclick="appendnumber(6)">6</button>
+            <button onclick="appendOperator('-')">-</button>
+          </div>
+
+          <div class="fourth">
+            <button onclick="appendnumber(1)">1</button>
+            <button onclick="appendnumber(2)">2</button>
+            <button onclick="appendnumber(3)">3</button>
+            <button onclick="appendOperator('+')">+</button>
+          </div>
+
+          <div class="fifth">
+            <button onclick="appendnumber(0)">0</button>
+            <button onclick="append_Decimal('.')">.</button>
+            <button class="equal" onclick="CalculateResult()" >=</button>
+          </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

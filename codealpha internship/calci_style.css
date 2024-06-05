@@ -1,0 +1,56 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+.main
+{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.front
+{
+    background-color: rgba(4, 9, 110, 0.8);
+    padding:25px 0px 30px 45px;
+    width:590px;
+}
+input{
+    padding: 15px 15px;
+    background-color: rgb(128, 128, 128);
+    width:160px;
+    overflow: hidden;
+}
+button
+{
+    padding: 10px 10px;
+    border-radius: 20px;
+    outline: none;
+    width: 130px;
+    margin-top: 15px;
+    color:black;
+    font-weight:bolder; 
+    background-color:coral;
+    font-size:larger;
+
+}
+.fifth .equal
+{
+    width: 266px;
+}
+input[type="text"]
+{
+    width:82%;
+    color:black;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding:20px;
+}
+.header
+{
+    margin-top: 130px;
+}
